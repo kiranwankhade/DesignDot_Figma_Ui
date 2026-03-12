@@ -47,10 +47,10 @@ export default function Slider() {
           relative mx-auto
           w-[300px] h-[300px]
           md:absolute
-          md:top-[-360px]
-          md:left-[600px]
-          md:w-[850px]
-          md:h-[850px]
+          md:top-[-42%]
+          md:left-[39%]
+          md:w-[56vw]
+          md:h-[125vh]
           md:rotate-[40.03deg]
           rounded-[162px]
           overflow-hidden

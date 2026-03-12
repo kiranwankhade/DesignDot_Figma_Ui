@@ -32,16 +32,16 @@ const Insights = () => {
     <section className="relative w-[95%] m-auto bg-white  overflow-hidden">
       <div className="max-w-screen-3xl mx-auto px-[15px] flex flex-col lg:flex-row justify-between gap-16">
         {/* LEFT SIDE */}
-        <div className="w-full lg:w-[50%] flex gap-10">
+        <div className="w-full lg:w-[50%] flex flex-col lg:flex-row gap-6 lg:gap-10">
           {/* INSIGHTS BOX */}
-         <div className="w-[230px] h-[180px] bg-[#EEEEEE] rounded-[28px] flex items-end justify-start p-6">
+         <div className="w-full sm:w-[230px] h-[160px] sm:h-[180px]  bg-[#EEEEEE] rounded-[28px] flex items-end justify-start p-6">
            <h2 className="font-heading text-[18px] font-semibold leading-snug">
               INSPIRATION & <br /> INSIGHTS
             </h2>
           </div>
 
           {/* ACCORDION */}
-          <div className=" w-[567px]">
+          <div className=" w-full lg:w-[567px]">
             {accordionData.map((item, index) => {
               const isActive = index === activeIndex;
 
@@ -76,10 +76,10 @@ const Insights = () => {
           </div>
         </div>
         {/* RIGHT SIDE */}
-        <div className="w-full lg:w-[40%] flex gap-6 justify-end items-end h-[550px]">
+   <div className="w-full lg:w-[40%] flex flex-col sm:flex-row gap-4 lg:gap-6 justify-end items-end lg:h-[550px]">
           
           {/* Card 1 */}
-          <div className="relative w-[300px] h-[550px] rounded-[28px] overflow-hidden group">
+          <div className="relative w-full sm:w-[50%] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
             
             <Image
               src="/images/coin_image.jpg"
@@ -99,7 +99,7 @@ const Insights = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="relative w-[150px] h-[550px] rounded-[28px] overflow-hidden group">
+          <div className="relative w-full sm:w-[150px] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
             
             <Image
               src="/images/firstDetailsOffice.jpg"
@@ -108,16 +108,15 @@ const Insights = () => {
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A328C]/90 via-black/40 to-transparent"></div>
-            <div className="absolute bottom-15 left-0 right-0 flex justify-center">
-              
-              <h4 className="font-heading text-[18px] font-bold text-white tracking-widest rotate-[-90deg]">
+           <div className="absolute bottom-6 left-0 right-0 flex justify-center lg:bottom-15">   
+              <h4 className="font-heading text-[18px] font-bold text-white tracking-widest rotate-0 sm:rotate-0 lg:rotate-[-90deg]">
                 
                 Operations
               </h4>
             </div>
           </div>
           {/* Card 3 */}
-          <div className="relative w-[120px] h-[550px] rounded-[28px] overflow-hidden group">
+          <div className="relative w-full sm:w-[120px] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
             
             <Image
               src="/images/verticleMenImage.jpg"
@@ -128,7 +127,7 @@ const Insights = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A328C]/90 via-black/40 to-transparent"></div>
             <div className="absolute bottom-12 left-0 right-0 flex justify-center">
               
-              <h4 className="font-heading text-[18px] font-bold text-white tracking-widest rotate-[-90deg] ">
+             <h4 className="font-heading text-[18px] font-bold text-white tracking-widest rotate-0 sm:rotate-0 lg:rotate-[-90deg]">
                 
                 Growth & Expansion
               </h4>

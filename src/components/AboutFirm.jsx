@@ -9,7 +9,7 @@ export default function AboutFirm() {
       <div className="max-w-screen-3xl mx-auto px-[15px] flex flex-col lg:flex-row gap-16">
         {/* LEFT SECTION */}
         <div className="relative w-full lg:w-[60%]">
-          <div className="absolute left-0 top-0 w-[650px] md:w-[650px] lg:w-[800px] h-[400px] md:h-[500px] lg:h-[650px] pointer-events-none">
+          <div className="absolute left-0 top-0 w-full sm:w-[650px] lg:w-[800px] h-[400px] md:h-[500px] lg:h-[650px] pointer-events-none">
             <Image
               src="/images/map.jpg"
               alt="map"
@@ -18,9 +18,9 @@ export default function AboutFirm() {
             />
           </div>
           <div className="relative z-10 ">
-            <div className="flex items-start gap-8 mb-12 ">
+           <div className="flex flex-col sm:flex-row items-start gap-6 sm:gap-8 mb-12">
               {/* ABOUT BOX */}
-              <div className="w-[224px] h-[218px] bg-[#EEEEEE] rounded-[28px] flex items-end justify-start p-6 ">
+              <div className="w-full sm:w-[224px] h-[160px] sm:h-[218px]  bg-[#EEEEEE] rounded-[28px] flex items-end justify-start p-6 ">
                 <h2 className="font-heading text-[20px] font-semibold leading-snug">
                   ABOUT <br /> FIRM
                 </h2>
