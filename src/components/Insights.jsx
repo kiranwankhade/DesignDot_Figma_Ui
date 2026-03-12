@@ -99,7 +99,7 @@ const Insights = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="relative w-full sm:w-[150px] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
+          <div className="relative w-full sm:w-[20%] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
             
             <Image
               src="/images/firstDetailsOffice.jpg"
@@ -116,7 +116,7 @@ const Insights = () => {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="relative w-full sm:w-[120px] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
+          <div className="relative w-full sm:w-[20%] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
             
             <Image
               src="/images/verticleMenImage.jpg"

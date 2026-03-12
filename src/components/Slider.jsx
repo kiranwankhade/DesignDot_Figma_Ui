@@ -9,9 +9,7 @@ export default function Slider() {
   return (
     <section className="relative w-full min-h-[600px] overflow-hidden bg-[#143F8F]">
       <div className="flex flex-col md:block">
-        <div
-          className="text-white z-20 px-6 md:absolute md:left-[5%] md:top-[25%] md:max-w-xl"
-        >
+        <div className="text-white z-20 px-6  md:absolute md:left-[5%] md:top-[25%] md:max-w-xl">
           <p className="font-bold text-xs uppercase opacity-80 mb-2">
             Accountants and Global Business Advisors
           </p>
@@ -35,7 +33,7 @@ export default function Slider() {
             LETS CONNECT
           </button>
 
-          <p className="text-xs font-semibold opacity-80 mt-20">
+          <p className="text-xs font-semibold opacity-80 mt-20 mb-4">
             ACCOUNTING, TAXATION, & BUSINESS ADVISORY BETWEEN INDIA, JAPAN, AND
             THE WORLD
           </p>
@@ -47,10 +45,10 @@ export default function Slider() {
           relative mx-auto
           w-[300px] h-[300px]
           md:absolute
-          md:top-[-42%]
-          md:left-[39%]
-          md:w-[56vw]
-          md:h-[125vh]
+          md:top-[-43%]
+          md:left-[38%]
+          md:w-[780px]
+          md:h-[760px]
           md:rotate-[40.03deg]
           rounded-[162px]
           overflow-hidden
@@ -72,7 +70,7 @@ export default function Slider() {
       <div
         className="relative  flex flex-col items-center gap-4
                   md:absolute md:bottom-5 md:right-10 md:flex-row md:items-center md:gap-2
-                  text-white z-20"
+                  text-white z-20 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4 sm:mb-4 mt-10"
       >
         {/* Circle Avatar */}
         <div className="flex -space-x-6">
