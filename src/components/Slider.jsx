@@ -75,27 +75,27 @@ export default function Slider() {
                   text-white z-20"
       >
         {/* Circle Avatar */}
-        <div className="flex -space-x-6">
+        <div className="flex -space-x-7">
           <Image
             src="/images/Profile1.png"
             width={50}
             height={50}
             alt="Profile1"
-            className="rounded-full border-2 border-white"
+            className="rounded-full border-2 border-[#4B4B4B]"
           />
           <Image
             src="/images/Profile2.png"
             width={50}
             height={50}
             alt="Profile2"
-            className="rounded-full border-2 border-white"
+            className="rounded-full border-2 border-[#4B4B4B]"
           />
           <Image
             src="/images/Profile3.png"
             width={50}
             height={50}
             alt="Profile3"
-            className="rounded-full border-2 border-white"
+            className="rounded-full border-2 border-[#4B4B4B]"
           />
           <span className="font-heading bg-orange-500 px-2 py-4 rounded-full border-2 border-white text-[12px] font-semibold">
             MORE
