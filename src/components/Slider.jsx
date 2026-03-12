@@ -35,7 +35,7 @@ export default function Slider() {
             LETS CONNECT
           </button>
 
-          <p className="text-xs font-semibold opacity-80 mt-15">
+          <p className="text-xs font-semibold opacity-80 mt-20">
             ACCOUNTING, TAXATION, & BUSINESS ADVISORY BETWEEN INDIA, JAPAN, AND
             THE WORLD
           </p>
@@ -70,12 +70,12 @@ export default function Slider() {
 
       {/* Bottom Curved Image Right */}
       <div
-        className="relative  flex flex-col items-center gap-4 mt-10
-                  md:absolute md:bottom-10 md:right-10 md:flex-row md:items-center md:gap-2
+        className="relative  flex flex-col items-center gap-4
+                  md:absolute md:bottom-5 md:right-10 md:flex-row md:items-center md:gap-2
                   text-white z-20"
       >
         {/* Circle Avatar */}
-        <div className="flex -space-x-7">
+        <div className="flex -space-x-6">
           <Image
             src="/images/Profile1.png"
             width={50}
