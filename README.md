@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Corporate Landing Page – Next.js + Tailwind CSS
 
-## Getting Started
+A modern **responsive corporate landing page** built using **Next.js and Tailwind CSS**.
 
-First, run the development server:
+The project focuses on **clean UI design, responsive layout, and reusable components**.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Deployment Link**  
+https://design-dot-figma-ui.vercel.app/
+
+---
+
+## 📸 Preview
+
+Landing Page Preview
+<img width="1346" height="600" alt="12 03 2026_13 32 43_REC" src="https://github.com/user-attachments/assets/616271b2-f308-426c-aebe-f51d9c20303e" />
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js
+- Tailwind CSS
+- React
+- React Icons
+- Responsive Design
+- CSS Clip Path
+- Flexbox & Grid Layout
+
+---
+
+## 📂 Project Structure
+```
+project-root
+│
+├── components
+  │ ├── Navbar.jsx
+  │ ├── Slider.jsx
+  │ ├── HotTopics.jsx
+  │ ├── AboutFirm.jsx
+  │ └── Insights.jsx
+│ ├── public
+  │ └── images
+  │ ├── buildingImage.png
+  │ ├── coin_image.jpg
+  │ ├── firstDetailsOffice.jpg
+  │ ├── map.jpg
+  │ ├── Profile1.png
+  │ ├── Profile2.png
+  │ ├── Profile3.png
+  │ └── verticleMenImage.jpg
+│ ├── pages/app
+  │ └── page.js
+  │ ├── styles
+  │ └── globals.css
+  │ ├── tailwind.config.js
+└── package.json
+```
+
+## 📱 Features
+
+✔ Fully Responsive Layout
+✔ Modern UI Components
+✔ Optimized Images using Next.js
+✔ Tailwind Utility-Based Styling
+✔ Reusable React Components
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/kiranwankhade/DesignDot_Figma_Ui.git
+```
+Navigate to the project folder
+```bash
+cd DesignDot_Figma_Ui
+```
+
+Install dependencies
+```bash
+npm install
+```
+
+Start server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Responsive Breakpoints
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The project uses Tailwind responsive breakpoints:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Breakpoint | Size |
+|------------|------|
+| xs | 320px |
+| sm | 640px |
+| md | 768px |
+| lg | 1024px |
+| xl | 1280px |
+| 2xl | 1536px |
+| 3xl | 1920px |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Key Components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Navbar
+Responsive navigation bar with search and language selector.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Hero Section
+Custom image shape with **clip-path styling** and responsive layout.
 
-## Deploy on Vercel
+### Hot Topics
+Grid-based news highlight section.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### About Firm
+Company information with statistics and building image.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Insights
+Accordion layout with image cards.
