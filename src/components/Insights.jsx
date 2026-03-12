@@ -53,7 +53,7 @@ const Insights = () => {
                 >
                   <h3
                     className={`text-[15px] font-bold mb-2 transition-colors ${
-                      isActive ? "text-[#0A328C]" : "text-black"
+                      isActive ? "text-[#00338D]" : "text-black"
                     }`}
                   >
                     {item.title}
@@ -61,14 +61,14 @@ const Insights = () => {
 
                   <p
                     className={`text-[13px] leading-relaxed ${
-                      isActive ? "text-[#0A328C]" : "text-gray-600"
+                      isActive ? "text-[#00338D]" : "text-gray-600"
                     }`}
                   >
                     {item.content}
                   </p>
 
                   {isActive && (
-                    <div className="w-full h-[3px] bg-[#0A328C] mt-4"></div>
+                    <div className="w-full h-[3px] bg-[#00338D] mt-4"></div>
                   )}
                 </div>
               );
@@ -76,7 +76,7 @@ const Insights = () => {
           </div>
         </div>
         {/* RIGHT SIDE */}
-   <div className="w-full lg:w-[40%] flex flex-col sm:flex-row gap-4 lg:gap-6 justify-end items-end lg:h-[550px]">
+   <div className="w-full lg:w-[50%] flex flex-col sm:flex-row gap-4 lg:gap-6 justify-end items-end lg:h-[550px]">
           
           {/* Card 1 */}
           <div className="relative w-full sm:w-[50%] h-[350px] sm:h-[550px] rounded-[28px] overflow-hidden group">
